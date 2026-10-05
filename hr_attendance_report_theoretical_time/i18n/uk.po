@@ -1,0 +1,138 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_hr_attendance__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.ui.menu,name:hr_attendance_report_theoretical_time.menu_hr_attendance_theoretical_report
+msgid "Analysis"
+msgstr "Аналіз"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.ui.menu,name:hr_attendance_report_theoretical_time.menu_hr_attendance_report
+msgid "Attendances Analysis"
+msgstr "Аналіз відвідуваності"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_hr_attendance_theoretical_time_report__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_recompute_theoretical_attendance__create_uid
+#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_wizard_theoretical_time__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_recompute_theoretical_attendance__create_date
+#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_wizard_theoretical_time__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_hr_attendance_theoretical_time_report__date
+msgid "Date"
+msgstr "Дата"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_hr_attendance_theoretical_time_report__department_id
+#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_wizard_theoretical_time__department_id
+msgid "Department"
+msgstr "Відділ"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_hr_attendance_theoretical_time_report__difference
+msgid "Difference"
+msgstr "Різниця"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_hr_attendance_theoretical_time_report__display_name
+#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_recompute_theoretical_attendance__display_name
+#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_wizard_theoretical_time__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.model,name:hr_attendance_report_theoretical_time.model_hr_employee
+#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_hr_attendance_theoretical_time_report__employee_id
+msgid "Employee"
+msgstr "Працівник"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_recompute_theoretical_attendance__employee_ids
+#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_wizard_theoretical_time__employee_ids
+#: model_terms:ir.ui.view,arch_db:hr_attendance_report_theoretical_time.wizard_theoretical_time_form_view
+msgid "Employees"
+msgstr "Працівники"
+
+#. module: hr_attendance_report_theoretical_time
+#: model_terms:ir.ui.view,arch_db:hr_attendance_report_theoretical_time.wizard_theoretical_time_form_view
+msgid "Filters"
+msgstr "Фільтри"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_recompute_theoretical_attendance__date_from
+msgid "From"
+msgstr "Від"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_hr_attendance_theoretical_time_report__leave_hours
+msgid "Leave"
+msgstr "Відпустка"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_hr_attendance__leave_hours
+msgid "Leave Hours"
+msgstr "Години відпустки"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.actions.act_window,name:hr_attendance_report_theoretical_time.act_wizard_recompute_theoretical_attendance
+#: model:ir.ui.menu,name:hr_attendance_report_theoretical_time.menu_recompute_theoretical_attendance
+msgid "Recompute Theoretical Attendances"
+msgstr "Перерахувати теоретичну відвідуваність"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.ui.menu,name:hr_attendance_report_theoretical_time.menu_hr_attendance_theoretical_report_select
+msgid "Select Employees"
+msgstr "Вибрати працівників"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_wizard_theoretical_time__category_ids
+msgid "Tag"
+msgstr "Тег"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.ui.menu,name:hr_attendance_report_theoretical_time.menu_hr_attendance_theoretical_root
+msgid "Theoretical vs Attended Time"
+msgstr "Теоретичний і фактичний час"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_hr_attendance_theoretical_time_report__theoretical_hours
+msgid "Theoric"
+msgstr "Теоретичний"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_recompute_theoretical_attendance__date_to
+msgid "To"
+msgstr "Кому"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_hr_attendance_theoretical_time_report__worked_hours
+msgid "Worked"
+msgstr "Відпрацьовано"
