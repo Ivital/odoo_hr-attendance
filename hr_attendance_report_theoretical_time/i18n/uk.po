@@ -222,3 +222,33 @@ msgstr "Сьогодні"
 #: model_terms:ir.ui.view,arch_db:hr_attendance_report_theoretical_time.wizard_theoretical_time_form_view
 msgid "View Report"
 msgstr "Переглянути звіт"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.actions.server,name:hr_attendance_report_theoretical_time.create_empty_attendance_cron_ir_actions_server
+msgid "Create Empty Attendance"
+msgstr "Створити порожню присутність"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_hr_leave_type__include_in_leave_theoretical
+msgid "Include in leave hours"
+msgstr "Включати в години відпустки"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_hr_leave_type__include_in_theoretical
+msgid "Include in theoretical hours"
+msgstr "Включати в теоретичні години"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.actions.act_window,name:hr_attendance_report_theoretical_time.recompute_employee_theoretical_attendance
+msgid "Recompute Theoretical Attendance"
+msgstr "Перерахувати теоретичну присутність"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.actions.act_window,name:hr_attendance_report_theoretical_time.hr_attendance_theoretical_action
+msgid "Theoretical vs Attended Time Analysis"
+msgstr "Аналіз теоретичного та фактичного часу"
+
+#. module: hr_attendance_report_theoretical_time
+#: model_terms:ir.ui.view,arch_db:hr_attendance_report_theoretical_time.wizard_theoretical_time_form_view
+msgid "Wizard Theoretical Time"
+msgstr "Майстер теоретичного часу"

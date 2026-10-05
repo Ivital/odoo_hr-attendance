@@ -140,3 +140,23 @@ msgstr "Увійти"
 #: model:ir.model.fields.selection,name:hr_attendance_reason.selection__hr_attendance_reason__action_type__sign_out
 msgid "Sign out"
 msgstr "Вийти"
+
+#. module: hr_attendance_reason
+#: model_terms:ir.ui.view,arch_db:hr_attendance_reason.res_config_settings_view_form
+msgid "Default value for sign-in"
+msgstr "Значення за замовчуванням для входу"
+
+#. module: hr_attendance_reason
+#: model_terms:ir.ui.view,arch_db:hr_attendance_reason.res_config_settings_view_form
+msgid "Default value for sign-out"
+msgstr "Значення за замовчуванням для виходу"
+
+#. module: hr_attendance_reason
+#: model_terms:ir.ui.view,arch_db:hr_attendance_reason.hr_attendance_reason_view_form
+msgid "Define attendance reason"
+msgstr "Визначити причину присутності"
+
+#. module: hr_attendance_reason
+#: model:ir.model.fields,field_description:hr_attendance_reason.field_hr_attendance_reason__show_on_attendance_screen
+msgid "Show on attendance screen?"
+msgstr "Показувати на екрані присутності?"

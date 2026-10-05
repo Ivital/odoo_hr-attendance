@@ -264,3 +264,53 @@ msgstr "Повідомлення вебсайту"
 #: model:ir.model.fields,field_description:hr_attendance_rest_time_included.field_hr_attendance_rest_time__worked_hours
 msgid "Worked Hours"
 msgstr "Відпрацьовані години"
+
+#. module: hr_attendance_rest_time_included
+#: model_terms:ir.ui.view,arch_db:hr_attendance_rest_time_included.hr_attendance_rest_time_view_form
+msgid "Employee rest time"
+msgstr "Час відпочинку працівника"
+
+#. module: hr_attendance_rest_time_included
+#: model:ir.model.fields,help:hr_attendance_rest_time_included.field_hr_attendance_rest_time__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: hr_attendance_rest_time_included
+#: model:ir.model.fields,help:hr_attendance_rest_time_included.field_hr_attendance_rest_time__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: hr_attendance_rest_time_included
+#: model:ir.model.fields,field_description:hr_attendance_rest_time_included.field_hr_attendance_rest_time__no_validated_overtime_hours
+msgid "No Validated Overtime Hours"
+msgstr "Немає перевірених понаднормових годин"
+
+#. module: hr_attendance_rest_time_included
+#: model:ir.model.fields,help:hr_attendance_rest_time_included.field_hr_attendance_rest_time__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: hr_attendance_rest_time_included
+#: model:ir.model.fields,help:hr_attendance_rest_time_included.field_hr_attendance_rest_time__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: hr_attendance_rest_time_included
+#: model:ir.model.fields,field_description:hr_attendance_rest_time_included.field_hr_attendance_rest_time__out_country_name
+msgid "Out Country Name"
+msgstr "Назва країни призначення"
+
+#. module: hr_attendance_rest_time_included
+#: model:ir.model.fields,field_description:hr_attendance_rest_time_included.field_hr_attendance_reason__rest_time_included
+msgid "Rest Time Included"
+msgstr "Час відпочинку включено"
+
+#. module: hr_attendance_rest_time_included
+#: model:ir.model.fields,help:hr_attendance_rest_time_included.field_hr_attendance_rest_time__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"
+
+#. module: hr_attendance_rest_time_included
+#: model:ir.model.fields,field_description:hr_attendance_rest_time_included.field_hr_attendance_rest_time__overtime_hours
+msgid "Worked Extra Hours"
+msgstr "Відпрацьовані додаткові години"

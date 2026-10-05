@@ -19,3 +19,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_attendance_rfid.field_hr_employee_public__rfid_card_code
 msgid "RFID Card Code"
 msgstr "Код RFID-картки"
+
+#. module: hr_attendance_rfid
+#: model:ir.model.constraint,message:hr_attendance_rfid.constraint_hr_employee_base_rfid_card_code_uniq
+#: model:ir.model.constraint,message:hr_attendance_rfid.constraint_hr_employee_public_rfid_card_code_uniq
+#: model:ir.model.constraint,message:hr_attendance_rfid.constraint_hr_employee_rfid_card_code_uniq
+msgid "The rfid code should be unique."
+msgstr "Код RFID має бути унікальним."
