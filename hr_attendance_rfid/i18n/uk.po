@@ -26,3 +26,8 @@ msgstr "Код RFID-картки"
 #: model:ir.model.constraint,message:hr_attendance_rfid.constraint_hr_employee_rfid_card_code_uniq
 msgid "The rfid code should be unique."
 msgstr "Код RFID має бути унікальним."
+
+#. module: hr_attendance_rfid
+#: model:res.groups,name:hr_attendance_rfid.group_hr_attendance_rfid
+msgid "RFID Attendance"
+msgstr "RFID-відвідування"

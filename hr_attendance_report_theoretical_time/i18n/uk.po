@@ -252,3 +252,65 @@ msgstr "Аналіз теоретичного та фактичного часу
 #: model_terms:ir.ui.view,arch_db:hr_attendance_report_theoretical_time.wizard_theoretical_time_form_view
 msgid "Wizard Theoretical Time"
 msgstr "Майстер теоретичного часу"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.model.fields,help:hr_attendance_report_theoretical_time.field_hr_employee__theoretical_hours_start_date
+#: model:ir.model.fields,help:hr_attendance_report_theoretical_time.field_hr_employee_public__theoretical_hours_start_date
+msgid ""
+"Fill this field for setting a manual start date for computing the "
+"theoretical hours independently from the attendances. If not filled, "
+"employee creation date or the calendar start date will be used (the greatest"
+" of both)."
+msgstr ""
+"Заповніть це поле, щоб вручну задати початкову дату для розрахунку "
+"теоретичних годин незалежно від відвідувань. Якщо не заповнено, "
+"використовується пізніша з дат: дата створення працівника або початкова дата"
+" календаря."
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.model,name:hr_attendance_report_theoretical_time.model_wizard_theoretical_time
+msgid "Filtered Theoretical Time"
+msgstr "Відфільтрований теоретичний час"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.model.fields,help:hr_attendance_report_theoretical_time.field_hr_leave_type__include_in_leave_theoretical
+msgid ""
+"If you check this mark, leaves in this category won't reduce the number of "
+"leave hours in the attendance report."
+msgstr ""
+"Якщо позначено, відсутності цієї категорії не зменшуватимуть кількість годин"
+" відсутності у звіті відвідуваності."
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.model.fields,help:hr_attendance_report_theoretical_time.field_hr_leave_type__include_in_theoretical
+msgid ""
+"If you check this mark, leaves in this category won't reduce the number of "
+"theoretical hours in the attendance report."
+msgstr ""
+"Якщо позначено, відсутності цієї категорії не зменшуватимуть кількість "
+"теоретичних годин у звіті відвідуваності."
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.model,name:hr_attendance_report_theoretical_time.model_recompute_theoretical_attendance
+msgid "Recompute Employees Attendances"
+msgstr "Перерахувати відвідування працівників"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.model.fields,help:hr_attendance_report_theoretical_time.field_recompute_theoretical_attendance__date_from
+msgid "Recompute attendances from this date"
+msgstr "Перерахувати відвідування від цієї дати"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.model.fields,help:hr_attendance_report_theoretical_time.field_recompute_theoretical_attendance__date_to
+msgid "Recompute attendances up to this date"
+msgstr "Перерахувати відвідування до цієї дати"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.model.fields,help:hr_attendance_report_theoretical_time.field_recompute_theoretical_attendance__employee_ids
+msgid "Recompute these employees attendances"
+msgstr "Перерахувати відвідування цих працівників"
+
+#. module: hr_attendance_report_theoretical_time
+#: model:ir.model,name:hr_attendance_report_theoretical_time.model_hr_attendance_theoretical_time_report
+msgid "Report of theoretical time vs attendance time"
+msgstr "Звіт теоретичного часу порівняно з фактичним відвідуванням"

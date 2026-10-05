@@ -37,3 +37,12 @@ msgstr "Остання реєстрація виходу"
 #: model_terms:ir.ui.view,arch_db:hr_attendance_modification_tracking.hr_attendance_view_search
 msgid "Time Changed"
 msgstr "Час змінено"
+
+#. module: hr_attendance_modification_tracking
+#: model:ir.model.fields,help:hr_attendance_modification_tracking.field_hr_attendance__time_changed_manually
+msgid ""
+"This attendance has been manually changed by user. If attendance is created "
+"from form view, a 60 seconds tolerance will be applied."
+msgstr ""
+"Цей запис відвідування було змінено користувачем вручну. Якщо відвідування "
+"створено з форми, застосовується допуск 60 секунд."
