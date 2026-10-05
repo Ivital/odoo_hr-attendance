@@ -70,3 +70,73 @@ msgstr "Причини"
 #: model:ir.model.fields,field_description:hr_attendance_reason.field_hr_attendance_reason__sequence
 msgid "Sequence"
 msgstr "Послідовність"
+
+#. module: hr_attendance_reason
+#: model:ir.model,name:hr_attendance_reason.model_hr_attendance_reason
+#: model:ir.model.fields,field_description:hr_attendance_reason.field_hr_attendance__attendance_reason_ids
+msgid "Attendance Reason"
+msgstr "Причина відвідуваності"
+
+#. module: hr_attendance_reason
+#: model:ir.actions.act_window,name:hr_attendance_reason.hr_attendance_reason_action
+#: model_terms:ir.ui.view,arch_db:hr_attendance_reason.res_config_settings_view_form
+msgid "Attendance Reasons"
+msgstr "Причини відвідуваності"
+
+#. module: hr_attendance_reason
+#: model:ir.model.fields,field_description:hr_attendance_reason.field_res_company__reason_on_attendance_screen_default_sign_in
+#: model:ir.model.fields,field_description:hr_attendance_reason.field_res_config_settings__reason_on_attendance_screen_default_sign_in
+msgid "Default sign-in reason for attendance screen"
+msgstr "Типова причина входу на екрані відвідуваності"
+
+#. module: hr_attendance_reason
+#: model:ir.model.fields,field_description:hr_attendance_reason.field_res_company__reason_on_attendance_screen_default_sign_out
+#: model:ir.model.fields,field_description:hr_attendance_reason.field_res_config_settings__reason_on_attendance_screen_default_sign_out
+msgid "Default sign-out reason for attendance screen"
+msgstr "Типова причина виходу на екрані відвідуваності"
+
+#. module: hr_attendance_reason
+#. odoo-javascript
+#: code:addons/hr_attendance_reason/static/src/components/kiosk_reason/kiosk_reason.xml:0
+msgid "Go back"
+msgstr "Повернутися"
+
+#. module: hr_attendance_reason
+#: model:ir.model.fields,field_description:hr_attendance_reason.field_hr_attendance_reason__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: hr_attendance_reason
+#: model:ir.model.fields,field_description:hr_attendance_reason.field_hr_attendance_reason__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: hr_attendance_reason
+#: model_terms:ir.ui.view,arch_db:hr_attendance_reason.res_config_settings_view_form
+msgid "Reason is required"
+msgstr "Причина обов'язкова"
+
+#. module: hr_attendance_reason
+#: model:ir.model.fields,field_description:hr_attendance_reason.field_res_company__required_reason_on_attendance_screen
+#: model:ir.model.fields,field_description:hr_attendance_reason.field_res_config_settings__required_reason_on_attendance_screen
+msgid "Required reason on attendance screen"
+msgstr "Обов'язкова причина на екрані відвідуваності"
+
+#. module: hr_attendance_reason
+#: model:ir.model.fields,field_description:hr_attendance_reason.field_res_company__show_reason_on_attendance_screen
+#: model:ir.model.fields,field_description:hr_attendance_reason.field_res_config_settings__show_reason_on_attendance_screen
+#: model_terms:ir.ui.view,arch_db:hr_attendance_reason.res_config_settings_view_form
+msgid "Show reasons on attendance screen"
+msgstr "Показувати причини на екрані відвідуваності"
+
+#. module: hr_attendance_reason
+#: model:ir.model.fields.selection,name:hr_attendance_reason.selection__hr_attendance_reason__action_type__sign_in
+msgid "Sign in"
+msgstr "Увійти"
+
+#. module: hr_attendance_reason
+#. odoo-javascript
+#: code:addons/hr_attendance_reason/static/src/components/kiosk_reason/kiosk_reason.xml:0
+#: model:ir.model.fields.selection,name:hr_attendance_reason.selection__hr_attendance_reason__action_type__sign_out
+msgid "Sign out"
+msgstr "Вийти"

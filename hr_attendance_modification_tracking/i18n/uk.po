@@ -22,3 +22,18 @@ msgstr "Відкрити"
 #: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_attendance__time_changed_manually
 msgid "Time changed"
 msgstr "Час змінено"
+
+#. module: hr_attendance_modification_tracking
+#: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_employee_base__last_check_in
+msgid "Last Check In"
+msgstr "Остання реєстрація входу"
+
+#. module: hr_attendance_modification_tracking
+#: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_employee_base__last_check_out
+msgid "Last Check Out"
+msgstr "Остання реєстрація виходу"
+
+#. module: hr_attendance_modification_tracking
+#: model_terms:ir.ui.view,arch_db:hr_attendance_modification_tracking.hr_attendance_view_search
+msgid "Time Changed"
+msgstr "Час змінено"
