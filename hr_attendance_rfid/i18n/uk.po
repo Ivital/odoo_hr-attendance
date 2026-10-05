@@ -31,3 +31,21 @@ msgstr "Код RFID має бути унікальним."
 #: model:res.groups,name:hr_attendance_rfid.group_hr_attendance_rfid
 msgid "RFID Attendance"
 msgstr "RFID-відвідування"
+
+#. module: hr_attendance_rfid
+#. odoo-python
+#: code:addons/hr_attendance_rfid/models/hr_employee.py:0
+msgid "Attendance recorded for employee %s"
+msgstr "Відвідування зареєстровано для працівника %s"
+
+#. module: hr_attendance_rfid
+#. odoo-python
+#: code:addons/hr_attendance_rfid/models/hr_employee.py:0
+msgid "No attendance was recorded for employee %s"
+msgstr "Для працівника %s не зафіксовано відвідування"
+
+#. module: hr_attendance_rfid
+#. odoo-python
+#: code:addons/hr_attendance_rfid/models/hr_employee.py:0
+msgid "No employee found with card %s"
+msgstr "Працівника з карткою %s не знайдено"

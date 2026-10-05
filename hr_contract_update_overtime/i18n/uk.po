@@ -18,3 +18,9 @@ msgstr "Оновлення понаднормового часу з трудов
 #: model:ir.actions.server,name:hr_contract_update_overtime.hr_contract_model_hr_contract
 msgid "Update Overtime"
 msgstr "Оновити понаднормові"
+
+#. module: hr_contract_update_overtime
+#. odoo-python
+#: code:addons/hr_contract_update_overtime/models/hr_contract.py:0
+msgid "Overtime updated"
+msgstr "Надурочні оновлено"

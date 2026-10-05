@@ -184,3 +184,53 @@ msgstr ""
 #: model:ir.model.fields,help:hr_attendance_reason.field_hr_attendance_reason__name
 msgid "Specifies the reason leaving soon or arriving late"
 msgstr "Вказує причину раннього виходу або пізнього прибуття"
+
+#. module: hr_attendance_reason
+#. odoo-javascript
+#: code:addons/hr_attendance_reason/static/src/components/attendance_menu/attendance_menu.esm.js:0
+#: code:addons/hr_attendance_reason/static/src/components/kiosk_reason/kiosk_reason.esm.js:0
+msgid "An attendance reason is required!"
+msgstr "Потрібно вказати причину відвідування!"
+
+#. module: hr_attendance_reason
+#. odoo-javascript
+#: code:addons/hr_attendance_reason/static/src/components/kiosk_reason/kiosk_reason.xml:0
+msgid "Error: could not find corresponding employee."
+msgstr "Помилка: не вдалося знайти відповідного працівника."
+
+#. module: hr_attendance_reason
+#. odoo-javascript
+#: code:addons/hr_attendance_reason/static/src/components/kiosk_reason/kiosk_reason.xml:0
+msgid "Please return to the main menu."
+msgstr "Поверніться до головного меню."
+
+#. module: hr_attendance_reason
+#. odoo-javascript
+#: code:addons/hr_attendance_reason/static/src/components/kiosk_reason/kiosk_reason.xml:0
+msgid "Please select a reason to"
+msgstr "Виберіть причину"
+
+#. module: hr_attendance_reason
+#. odoo-javascript
+#: code:addons/hr_attendance_reason/static/src/components/attendance_menu/attendance_menu.esm.js:0
+#: code:addons/hr_attendance_reason/static/src/components/kiosk_reason/kiosk_reason.esm.js:0
+msgid "Please, select a reason!"
+msgstr "Будь ласка, виберіть причину!"
+
+#. module: hr_attendance_reason
+#. odoo-javascript
+#: code:addons/hr_attendance_reason/static/src/public_kiosk/public_kiosk_app.esm.js:0
+msgid "Wrong Pin"
+msgstr "Неправильний PIN"
+
+#. module: hr_attendance_reason
+#. odoo-javascript
+#: code:addons/hr_attendance_reason/static/src/components/kiosk_reason/kiosk_reason.xml:0
+msgid "check in"
+msgstr "реєстрація приходу"
+
+#. module: hr_attendance_reason
+#. odoo-javascript
+#: code:addons/hr_attendance_reason/static/src/components/kiosk_reason/kiosk_reason.xml:0
+msgid "check out"
+msgstr "реєстрація виходу"
